@@ -12,12 +12,12 @@ function App() {
     setInputValue('');
   }
 
-  // function handleDeleteTodos(index){
-  //   const newTodoList = todos.filter((todo, todoIndex) => {
-  //     return todoIndex !== index
-  //   })
-  //   setTodos(newTodoList)
-  // }
+  function handleDeleteTodos(index){
+    const newTodoList = todos.filter((todo, todoIndex) => {
+      return todoIndex !== index
+    })
+    setTodos(newTodoList)
+  }
 
   // function handelEditTodos(index){
   //   const editTodo = todos.filter((todo, todoIndex) => {
