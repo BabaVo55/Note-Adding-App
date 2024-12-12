@@ -12,20 +12,20 @@ function App() {
     setInputValue('');
   }
 
-  function handleDeleteTodos(index){
-    const newTodoList = todos.filter((todo, todoIndex) => {
-      return todoIndex !== index
-    })
-    setTodos(newTodoList)
-  }
+  // function handleDeleteTodos(index){
+  //   const newTodoList = todos.filter((todo, todoIndex) => {
+  //     return todoIndex !== index
+  //   })
+  //   setTodos(newTodoList)
+  // }
 
-  function handelEditTodos(index){
-    const editTodo = todos.filter((todo, todoIndex) => {
-      return todoIndex === index
-    })
-    setInputValue(editTodo);
-    handleDeleteTodos(index)
-  }
+  // function handelEditTodos(index){
+  //   const editTodo = todos.filter((todo, todoIndex) => {
+  //     return todoIndex === index
+  //   })
+  //   setInputValue(editTodo);
+  //   handleDeleteTodos(index)
+  // }
   return (
     <>
      <h1>To-Do List</h1>
