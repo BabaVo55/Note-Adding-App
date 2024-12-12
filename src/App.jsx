@@ -18,11 +18,17 @@ function App() {
     })
     setTodos(newTodoList)
   }
+  // Alternative version of handleEditTodos
+  // function handelEditTodos(index){
+  //   const editTodo = todos.filter((todo, todoIndex) => {
+  //     return todoIndex === index
+  //   })
+  //   setInputValue(editTodo);
+  //   handleDeleteTodos(index)
+  // }
 
   function handelEditTodos(index){
-    const editTodo = todos.filter((todo, todoIndex) => {
-      return todoIndex === index
-    })
+    const editTodo = todos[index]
     setInputValue(editTodo);
     handleDeleteTodos(index)
   }

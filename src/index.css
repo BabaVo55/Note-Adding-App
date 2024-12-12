@@ -11,7 +11,7 @@ h2,
 h3,
 input,
 button {
-  font-family: 'Press Start 2P', system-ui;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 #root {
@@ -20,7 +20,7 @@ button {
   flex-direction: column;
   padding: 14px;
   background: #eff6ff;
-  gap: 14px;
+  gap: 14px; 
 }
 
 header {
@@ -114,4 +114,11 @@ p {
   p {
     font-size: 1em;
   }
+}
+
+.small-header {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-style:normal;
+  font-size: 20px;
 }
